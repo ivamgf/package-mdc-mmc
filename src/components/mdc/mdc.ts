@@ -1,7 +1,18 @@
 import React from "react";
 
-function Mdc() {
-    return "Mdc";
+interface mdcNumbers {
+
 }
 
-export default Mdc;
+class mdcCalc implements mdcNumbers {
+    constructor(
+
+    ) {
+
+    }
+}
+
+const mdc = new mdcCalc();
+console.log(mdc);
+
+export default mdc;

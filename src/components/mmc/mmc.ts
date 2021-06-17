@@ -1,7 +1,18 @@
 import React from "react";
 
-function Mmc() {
-    return "Mmc";
+interface mmcNumbers {
+
 }
 
-export default Mmc;
+class mmcCalc implements mmcNumbers {
+    constructor(
+
+    ) {
+
+    }
+}
+
+const mmc = new mmcCalc();
+console.log(mmc);
+
+export default mmc;
